@@ -1,5 +1,4 @@
 def find_the_way(graph, start, goal):  # start(x,y) goal(x,y)
-    # finding the way out
     explored = []
     queue = [[start]]
     if start == goal:
